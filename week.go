@@ -16,11 +16,17 @@ func main() {
 	case "1":
 		dayWords = "Monday"
 	case "2":
-		dayWords = "Tuesda"
+		dayWords = "Tuesday"
 	case "3":
 		dayWords = "Wednesday"
 	case "4":
 		dayWords = "Thursday"
+	case "5":
+		dayWords = "Friday"
+	case "6":
+		dayWords = "Saturday"
+	case "7":
+		dayWords = "Sunday"
 	}
 
 	fmt.Println("The day is " + dayWords)
