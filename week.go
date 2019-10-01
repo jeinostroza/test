@@ -29,5 +29,5 @@ func main() {
 		dayWords = "Sunday"
 	}
 
-	fmt.Println("The day is " + dayWords)
+	fmt.Println("The date is " + dayWords)
 }
